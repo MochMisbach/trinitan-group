@@ -1,0 +1,271 @@
+.header-home {
+    padding: 100px 0 165px;
+    height: 500px;
+    background-image: url('../images/home.png');
+    background-size: cover;
+    .banner-text {
+        margin-top: 40px;
+        padding-left: 40px;
+        color: white;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+        h1 {
+            font-size: 40px;
+            font-weight: 400;
+        }
+        span {
+            font-size: 30px;
+        }
+    }
+}
+
+
+
+.value {
+    padding-top: 30px;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    .figure {
+        img {
+            width: 130px;
+            margin-bottom: 30px;
+        }
+    }
+    .figure-caption {
+        margin-bottom: 40px;
+        color: #006633;
+        h2 {
+            span {
+                font-weight: bold;
+            }
+        }
+        h1 {
+           font-size: 60px;
+           margin-top: -10px;
+           margin-right: -12px;
+           font-weight: bold; 
+        }
+        h4 {
+            margin-left: -12px;
+        }
+    }
+    
+}
+
+
+.milestone {
+    padding-top: 30px;
+    .milestone-title {
+        color: #006633;
+        margin-bottom: 40px;
+        h1 {
+            font-size: 25px;
+            font-weight: 700;
+        }
+        h2 {
+            font-size: 25px;
+        }
+    }
+    .milestone-detail {
+        position: relative;
+        .garis {
+            position: absolute;
+            border-left: 2px dashed #676767;
+            height: 2750px;
+            z-index: 1;
+            top: 0px;
+            left: 127px;
+        }
+        .year {
+            h1 {
+            font-size: 30px;
+            color: #295E2A;
+            font-weight: bold;
+            padding-top: 20px;
+            }
+        }
+        .separator {
+            text-align: center;
+            margin-top: 25px;
+            z-index: 999;
+            img {
+                width: 15px;
+            }
+        }
+        .stage {
+            img {
+                margin-right: 20px;
+                margin-bottom: 8px;
+            }
+            h2 {
+                    color: #295E2A;
+                    font-size: 10px;
+                    font-weight: bold;
+                    margin-bottom: 4px;
+            }
+            h3 {
+                color: #295E2A;
+                font-size: 10px;
+                font-weight: bold;
+                margin-bottom: 3px;
+                span {
+                    font-size: 10px;
+                    font-weight: bold;
+                    color: #676767;
+                    margin-bottom: 3px;
+                }
+            }
+            h5 {
+                    font-size: 10px;
+                    font-weight: bold;
+                    color: #676767;
+                    margin-bottom: 3px;
+            }
+            .border-bottom {
+                width: 30px;
+                border-bottom: 1px solid grey !important;
+            }
+            .hmi {
+                h2 {
+                    margin-bottom: 1px;
+                }
+            }
+
+         }
+    
+
+    }
+}
+
+// phone landscape
+@media (min-width: 576px) { 
+    .milestone {
+        .milestone-detail {
+            position: relative;
+        .garis {
+            position: absolute;
+            border-left: 2px dashed #676767;
+            height: 2750px;
+            z-index: 1;
+            top: 0px;
+            left: 142px
+        }
+    }
+ }
+}
+
+// tablets version
+@media (min-width: 768px) { 
+    .milestone {
+        .milestone-detail {
+            position: relative;
+        .garis {
+            position: absolute;
+            border-left: 2px dashed #676767;
+            height: 2750px;
+            z-index: 1;
+            top: 0px;
+            left: 193px
+        }
+    }
+ }
+}
+
+
+// dekstop version
+@media (min-width: 992px){
+.header-home {
+    height: 600px;
+    .banner-text {
+        margin-top: 40px;
+        padding-left: 70px;
+        h1 {
+            font-size: 70px;
+        }
+        span {
+            font-size: 50px;
+        }
+    }
+}
+    .value-content {
+        border-right: 3px solid #006633;
+        h3 {
+            span {
+                font-size: 35px;
+                font-weight: 600;
+            }
+        }
+    }
+    .milestone {
+        
+        .milestone-title {
+            h1 {
+                font-size: 43px;
+                font-weight: 700;
+            }
+            h2 {
+                font-size: 43px;
+            }
+        }
+        .milestone-detail {
+            position: relative;
+        .garis {
+            position: absolute;
+            border-left: 2px dashed #676767;
+            height: 2200px;
+            z-index: 1;
+            top: 0px;
+            left: 315px;
+        }
+            .year {
+                h1 {
+                    font-size: 60px;
+                    color: #295E2A;
+                    font-weight: bold;
+                    margin-top: -9px;
+                    }
+            }
+            .stage {
+                    h2 {
+                        color: #295E2A;
+                        font-size: 16px;
+                        font-weight: bold;
+                        margin-bottom: 5px;
+                    }
+                    h3 {
+                        color: #295E2A;
+                        font-size: 12px;
+                        font-weight: bold;
+                        margin-bottom: 3px;
+                        span {
+                            font-size: 12px;
+                            font-weight: bold;
+                            color: #676767;
+                            margin-bottom: 3px;
+                        }
+                    }
+                    h5 {
+                        font-size: 12px;
+                        font-weight: bold;
+                        color: #676767;
+                        margin-bottom: 3px;
+                    }
+                    .border {
+                        color: #003018 !important;
+                        margin-left: -20px;
+                    }
+                    
+    
+             }
+             .separator {
+                margin-top: 35px;
+                z-index: 999;
+                img {
+                    width: 20px;
+                }
+            }
+             
+        }
+
+    }
+    
+}

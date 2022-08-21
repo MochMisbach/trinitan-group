@@ -1,0 +1,124 @@
+body {
+    font-family: 'Lato', sans-serif;
+
+}
+
+.panel {
+    .info-panel {
+        min-height: 40vh;
+        color: white;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.9);
+        padding-left: 30px;
+        padding-right: 10px;
+        background-image: url('../images/info-panel.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -180px;
+        h2 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .border {
+            width: 250px;
+        }
+        p {
+            font-size: 14px;
+        }
+    
+    }
+}
+
+footer {
+   .container {
+    margin-top: 40px;
+    background-color: white;
+    img {
+        width: 50px;
+        margin-bottom: 20px;
+    }
+   .connect {
+        a {
+        font-size: 8px;
+        margin-bottom: 10px;
+        }
+        .btn {
+        background-color: #295224 !important;
+        border-radius: 0;
+        &:hover {
+            background-color: #376b30 !important;
+        }
+        }
+    }
+   .follow {
+    img {
+        width: 20px;
+    }
+    p {
+        font-size: 12px;
+    }
+   }
+    
+   }
+}
+
+
+// dekstop version
+@media (min-width: 992px){
+    .panel {
+        .info-panel {
+            padding-left: 70px;
+            padding-right: 50px;
+            margin-top: -130px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            .border {
+                width: 350px;
+            }
+            h2 {
+                font-size: 30px;
+                font-weight: bold;
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+footer {
+    .container {
+        margin-top: 40px;
+        background-color: white;
+        img {
+            width: 70px;
+            margin-bottom: 20px;
+        }
+       .connect {
+            a {
+            font-size: 16px;
+            margin-bottom: 20px;
+            }
+        }
+       .follow {
+        img {
+            width: 40px;
+        }
+        p {
+            font-size: 16px;
+        }
+       }
+        
+       }
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
