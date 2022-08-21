@@ -10977,7 +10977,7 @@ nav .nav-link {
 }
 
 .value .figure img {
-  width: 130px;
+  width: 90px;
   margin-bottom: 30px;
 }
 
@@ -11091,6 +11091,20 @@ nav .nav-link {
   margin-bottom: 1px;
 }
 
+@media (min-width: 450px) {
+  .milestone .milestone-detail {
+    position: relative;
+  }
+  .milestone .milestone-detail .garis {
+    position: absolute;
+    border-left: 2px dashed #676767;
+    height: 2750px;
+    z-index: 1;
+    top: 0px;
+    left: 100px;
+  }
+}
+
 @media (min-width: 576px) {
   .milestone .milestone-detail {
     position: relative;
@@ -11133,12 +11147,16 @@ nav .nav-link {
   .header-home .banner-text span {
     font-size: 50px;
   }
-  .value-content {
+  .value .value-content {
     border-right: 3px solid #006633;
   }
-  .value-content h3 span {
+  .value .value-content h3 span {
     font-size: 35px;
     font-weight: 600;
+  }
+  .value .value-content .figure img {
+    width: 130px;
+    margin-bottom: 30px;
   }
   .milestone .milestone-title h1 {
     font-size: 43px;
@@ -11282,6 +11300,10 @@ nav .nav-link {
   margin-bottom: 3px;
 }
 
+.portfolio .portfolio-table-content .icon-sosmed img {
+  width: 25px;
+}
+
 @media (min-width: 992px) {
   .header-bussiness {
     height: 600px;
@@ -11305,6 +11327,9 @@ nav .nav-link {
     color: white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
     margin-top: 90px;
+  }
+  .portfolio .portfolio-table-content .icon-sosmed img {
+    width: 30px;
   }
 }
 

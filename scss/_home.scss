@@ -26,7 +26,7 @@
     margin-top: 60px;
     .figure {
         img {
-            width: 130px;
+            width: 90px;
             margin-bottom: 30px;
         }
     }
@@ -136,6 +136,23 @@
     }
 }
 
+// phone portrait
+@media (min-width: 450px) { 
+    .milestone {
+        .milestone-detail {
+            position: relative;
+        .garis {
+            position: absolute;
+            border-left: 2px dashed #676767;
+            height: 2750px;
+            z-index: 1;
+            top: 0px;
+            left: 100px
+        }
+    }
+ }
+}
+
 // phone landscape
 @media (min-width: 576px) { 
     .milestone {
@@ -152,7 +169,6 @@
     }
  }
 }
-
 // tablets version
 @media (min-width: 768px) { 
     .milestone {
@@ -186,7 +202,9 @@
         }
     }
 }
-    .value-content {
+
+.value {
+        .value-content {
         border-right: 3px solid #006633;
         h3 {
             span {
@@ -194,7 +212,14 @@
                 font-weight: 600;
             }
         }
+        .figure {
+            img {
+                width: 130px;
+                margin-bottom: 30px;
+            }
+        }
     }
+}
     .milestone {
         
         .milestone-title {

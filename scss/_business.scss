@@ -71,6 +71,11 @@
                 
             }
         }
+        .icon-sosmed {
+            img {
+                width: 25px;
+            }
+        }
     }
 }
 
@@ -106,6 +111,16 @@
         
         }
     }
+
+.portfolio {
+    .portfolio-table-content {
+        .icon-sosmed {
+            img {
+                width: 30px;
+            }
+        }
+    }
+}
    
     
 }
