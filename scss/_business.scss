@@ -74,8 +74,17 @@
         .icon-sosmed {
             img {
                 width: 25px;
+            }
+            a {
+                border: 1px solid gainsboro ;
+                padding: 7px 7px;
+                justify-content: center;
                 &:hover {
-                    color: green;
+                    border: 1px solid green ;
+                }
+                svg {
+                    margin-bottom: 4px;
+                    width: 20px;
                 }
             }
         }

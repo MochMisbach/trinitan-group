@@ -11350,8 +11350,21 @@ nav .nav-link {
   width: 25px;
 }
 
-.portfolio .portfolio-table-content .icon-sosmed img:hover {
-  color: green;
+.portfolio .portfolio-table-content .icon-sosmed a {
+  border: 1px solid gainsboro;
+  padding: 7px 7px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.portfolio .portfolio-table-content .icon-sosmed a:hover {
+  border: 1px solid green;
+}
+
+.portfolio .portfolio-table-content .icon-sosmed a svg {
+  margin-bottom: 4px;
+  width: 20px;
 }
 
 @media (min-width: 350px) {
