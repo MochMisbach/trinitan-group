@@ -136,8 +136,60 @@
     }
 }
 
+// I-phone portrait
+@media (min-width: 350px) { 
+    .header-home {
+        padding: 100px 0 90px;
+        .banner-text {
+            margin-top: 40px;
+            padding-left: 40px;
+            h1 {
+                font-size: 32px;
+                font-weight: 400;
+            }
+            span {
+                font-size: 20px;
+            }
+        }
+    }
+    .milestone {
+        .milestone-title {
+            h2 {
+                font-size: 18px;
+            }
+        }
+        .milestone-detail {
+            position: relative;
+        .garis {
+            position: absolute;
+            border-left: 2px dashed #676767;
+            height: 2790px;
+            z-index: 1;
+            top: 0px;
+            left: 100px
+        }
+    }
+ }
+}
+
+
 // phone portrait
-@media (min-width: 450px) { 
+@media (min-width: 400px) { 
+    .header-home {
+        padding: 100px 0 90px;
+        height: 500px;
+        .banner-text {
+            margin-top: 40px;
+            padding-left: 40px;
+            h1 {
+                font-size: 35px;
+                font-weight: 400;
+            }
+            span {
+                font-size: 25px;
+            }
+        }
+    }
     .milestone {
         .milestone-detail {
             position: relative;
@@ -147,7 +199,7 @@
             height: 2750px;
             z-index: 1;
             top: 0px;
-            left: 100px
+            left: 109px
         }
     }
  }

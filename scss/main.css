@@ -11091,7 +11091,53 @@ nav .nav-link {
   margin-bottom: 1px;
 }
 
-@media (min-width: 450px) {
+@media (min-width: 350px) {
+  .header-home {
+    padding: 100px 0 90px;
+  }
+  .header-home .banner-text {
+    margin-top: 40px;
+    padding-left: 40px;
+  }
+  .header-home .banner-text h1 {
+    font-size: 32px;
+    font-weight: 400;
+  }
+  .header-home .banner-text span {
+    font-size: 20px;
+  }
+  .milestone .milestone-title h2 {
+    font-size: 18px;
+  }
+  .milestone .milestone-detail {
+    position: relative;
+  }
+  .milestone .milestone-detail .garis {
+    position: absolute;
+    border-left: 2px dashed #676767;
+    height: 2790px;
+    z-index: 1;
+    top: 0px;
+    left: 100px;
+  }
+}
+
+@media (min-width: 400px) {
+  .header-home {
+    padding: 100px 0 90px;
+    height: 500px;
+  }
+  .header-home .banner-text {
+    margin-top: 40px;
+    padding-left: 40px;
+  }
+  .header-home .banner-text h1 {
+    font-size: 35px;
+    font-weight: 400;
+  }
+  .header-home .banner-text span {
+    font-size: 25px;
+  }
   .milestone .milestone-detail {
     position: relative;
   }
@@ -11101,7 +11147,7 @@ nav .nav-link {
     height: 2750px;
     z-index: 1;
     top: 0px;
-    left: 100px;
+    left: 109px;
   }
 }
 
@@ -11304,6 +11350,16 @@ nav .nav-link {
   width: 25px;
 }
 
+.portfolio .portfolio-table-content .icon-sosmed img:hover {
+  color: green;
+}
+
+@media (min-width: 350px) {
+  .portfolio .portfolio-table-content .icon-sosmed img {
+    width: 23px;
+  }
+}
+
 @media (min-width: 992px) {
   .header-bussiness {
     height: 600px;
@@ -11348,7 +11404,7 @@ nav .nav-link {
 }
 
 .header-contact .banner-text h1 {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 400;
   text-align: center;
 }
@@ -11361,7 +11417,7 @@ nav .nav-link {
 
 .contact .contact-title h1 {
   color: #295224;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .contact .contact-title h4 {
@@ -11374,18 +11430,17 @@ nav .nav-link {
 
 .contact .contact-title h5 {
   color: #676767;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .contact form .label {
-  margin-left: 20px;
-  padding: 14px 0;
+  padding: 8px 0;
   color: #676767;
   font-size: 12px;
 }
 
 .contact form .titik-dua {
-  padding: 9px 0;
+  padding: 4px 0;
   color: #676767;
 }
 
@@ -11420,6 +11475,30 @@ nav .nav-link {
 
 .contact form .tombol .tombol-area:hover {
   background-color: #376d2f;
+}
+
+@media (min-width: 350px) {
+  .contact form .titik-dua {
+    display: none;
+  }
+  .contact form input {
+    width: 100%;
+    height: 50px;
+    border: 0 solid #fff;
+    padding: 5px 8px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .contact form input:focus {
+    border: 1px solid #fff;
+  }
+  .contact form textarea {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #fff;
+    padding: 10px 18px;
+  }
 }
 
 @media (min-width: 992px) {

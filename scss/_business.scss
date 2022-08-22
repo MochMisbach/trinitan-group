@@ -74,6 +74,21 @@
         .icon-sosmed {
             img {
                 width: 25px;
+                &:hover {
+                    color: green;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 350px){
+    .portfolio {
+        .portfolio-table-content {
+            .icon-sosmed {
+                img {
+                    width: 23px;
+                }
             }
         }
     }
