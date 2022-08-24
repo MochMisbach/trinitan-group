@@ -4,7 +4,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,600;0,700;1,700&display=swap");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10829,7 +10829,7 @@ body {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
   padding-left: 30px;
   padding-right: 10px;
-  background-image: url("../images/info-panel.jpg");
+  background-image: url("../images/banner/info-panel.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: -180px;
@@ -10920,42 +10920,59 @@ footer .container .follow p {
 }
 
 nav {
-  background-color: #295224;
+  background-color: #295224 !important;
+  opacity: 90%;
 }
 
 nav .navbar-brand img {
   width: 40px;
 }
 
-nav .nav-link {
+nav .navbar-nav a {
+  color: #ffff !important;
+  font-weight: 600;
+  font-size: 18px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+nav .navbar-nav a:hover {
+  color: #ebe7e7 !important;
+}
+
+nav .navbar-nav .nav-link {
   margin-right: 30px;
+}
+
+.nav-active {
+  background-color: #295224 !important;
+  opacity: 90%;
+  -webkit-box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.5);
 }
 
 @media (min-width: 992px) {
   nav {
+    background-color: transparent !important;
+    border-bottom: none;
     height: 100px;
   }
   nav .navbar-brand img {
     width: 50px;
   }
-  nav .navbar-nav a:hover {
-    background-color: #193116;
-  }
   nav .nav-link {
     font-size: 16px;
-    color: #ffff;
   }
 }
 
 .header-home {
   padding: 100px 0 165px;
-  height: 500px;
-  background-image: url("../images/home.png");
+  height: 700px;
+  background-image: url("../images/banner/home.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header-home .banner-text {
-  margin-top: 40px;
   padding-left: 40px;
   color: white;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
@@ -10963,7 +10980,8 @@ nav .nav-link {
 
 .header-home .banner-text h1 {
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 600;
+  margin-top: 100px;
 }
 
 .header-home .banner-text span {
@@ -11181,17 +11199,18 @@ nav .nav-link {
 
 @media (min-width: 992px) {
   .header-home {
-    height: 600px;
+    height: 700px;
+    margin-top: -100px;
   }
   .header-home .banner-text {
-    margin-top: 40px;
     padding-left: 70px;
   }
   .header-home .banner-text h1 {
+    margin-top: 170px;
     font-size: 70px;
   }
   .header-home .banner-text span {
-    font-size: 50px;
+    font-size: 55px;
   }
   .value .value-content {
     border-right: 3px solid #006633;
