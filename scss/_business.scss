@@ -1,16 +1,16 @@
 .header-bussiness {
     padding: 100px 0 165px;
-    height: 500px;
-    background-image: url('../images/business.jpg');
+    height: 650px;
+    background-image: url('../images/banner/business.jpg');
     background-size: cover;
     .banner-text {
-        margin-top: 50px;
         padding-left: 40px;
         color: white;
         text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
         h1 {
             font-size: 35px;
             font-weight: 400;
+            margin-top: 100px;
         }
         span {
             font-size: 25px;
@@ -23,7 +23,7 @@
 .panel-business {
     margin-top: -30px;
     .info-panel-business {
-        background-image: url('../images/info-panel.jpg');
+        background-image: url('../images/banner/info-panel.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         margin-top: -70px;
@@ -40,23 +40,28 @@
 .portfolio {
     padding-bottom: 50px;
     .portfolio-header {
-        color: green;
         margin-top: 60px;
-        font-weight: bold;
-        font-size: 80px;
         margin-bottom: 20px;
+        h5 {
+            color: #295E2A;
+            font-weight: 700;
+            font-size: 17px;
+        }
     }
     .subject-table {
-        color: white;
-        font-weight: bold;
-        font-size: 20px;
         margin-bottom: 10px;
         background-color: gray;
+        h6 {
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            padding-top: 5px;
+        }
     }
     .portfolio-table-content {
         .card {
             margin-bottom: 20px;
-        }
+        
         .card-title {
             background-color: gray;
             color: white;
@@ -67,28 +72,32 @@
         .card-body {
             padding-top: 0px;
             p {
-                margin-bottom: 3px;
-                
+                margin-bottom: 3px;               
+            }
+            .borde {
+                    border: 0.1px solid rgb(160, 151, 151);
+                    width: 100%;
+                    margin: 30px 0px;
+            }
+         
+            .icon-sosmed {
+                a {
+                    border: 1px solid gainsboro ;
+                    background-color: rgb(196, 195, 195);
+                    padding-bottom: 6px;
+                    &:hover {
+                        border: 1px solid #38813a ;
+                        background-color: #38813a;
+                    }
+                    img {
+                        width: 25px;
+                    }
+                }
             }
         }
-        .icon-sosmed {
-            img {
-                width: 25px;
-            }
-            a {
-                border: 1px solid gainsboro ;
-                padding: 7px 7px;
-                justify-content: center;
-                &:hover {
-                    border: 1px solid green ;
-                }
-                svg {
-                    margin-bottom: 4px;
-                    width: 20px;
-                }
-            }
-        }
+       
     }
+}
 }
 
 @media (min-width: 350px){
@@ -115,12 +124,12 @@
 // dekstop version
 @media (min-width: 992px){
     .header-bussiness {
-        height: 600px;
+        height: 700px;
         .banner-text {
-            margin-top: 40px;
             padding-left: 70px;
             h1 {
                 font-size: 70px;
+                margin-top: 90px;
             }
             span {
                 font-size: 50px;
@@ -131,11 +140,11 @@
 
     .panel-business {
         .info-panel-business {
-            min-height: 40vh;
+            min-height: 35vh;
             margin-top: -140px;
             
             p {
-                font-size: 16px;
+                font-size: 18px;
                 color: white;
                 text-shadow: 1px 1px 1px rgba(0,0,0,0.9);
                 margin-top: 90px;
@@ -145,17 +154,36 @@
     }
 
 .portfolio {
+    .portfolio-header {
+        h5 {
+            font-weight: 700;
+            font-size: 18px;
+        }
+    }
+    .subject-table {
+        h6 {
+            padding-top: 6px;
+            font-weight: 700;
+            font-size: 18px;
+        }
+    }
     .portfolio-table-content {
-        .icon-sosmed {
-            img {
-                width: 30px;
-            }
-            a {
-                padding: 7px 7px;
-                justify-content: center;
-                svg {
-                    margin-bottom: 5px;
-                    width: 20px;
+        .card {
+            .card-body {
+                .borde {
+                    border: 0.1px solid rgb(160, 151, 151);
+                    width: 100%;
+                    margin: 30px 0px;
+                }
+                .icon-sosmed {
+                    a {
+                        padding-bottom: 7px;
+                        padding-right: 2px;
+                        padding-left: 2px;
+                        img {
+                            width: 30px;
+                        }
+                    }
                 }
             }
         }

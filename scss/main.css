@@ -10921,7 +10921,7 @@ footer .container .follow p {
 
 nav {
   background-color: #295224 !important;
-  opacity: 90%;
+  opacity: 80%;
 }
 
 nav .navbar-brand img {
@@ -10948,18 +10948,20 @@ nav .navbar-nav .nav-link {
   opacity: 90%;
   -webkit-box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.5);
           box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.5);
+  border-bottom: none;
 }
 
 @media (min-width: 992px) {
   nav {
     background-color: transparent !important;
-    border-bottom: none;
     height: 100px;
+    border-bottom: 0.5px solid #fff;
   }
   nav .navbar-brand img {
     width: 50px;
   }
-  nav .nav-link {
+  nav .navbar-nav a {
+    text-transform: uppercase;
     font-size: 16px;
   }
 }
@@ -11037,19 +11039,6 @@ nav .navbar-nav .nav-link {
   font-size: 25px;
 }
 
-.milestone .milestone-detail {
-  position: relative;
-}
-
-.milestone .milestone-detail .garis {
-  position: absolute;
-  border-left: 2px dashed #676767;
-  height: 2750px;
-  z-index: 1;
-  top: 0px;
-  left: 127px;
-}
-
 .milestone .milestone-detail .year h1 {
   font-size: 30px;
   color: #295E2A;
@@ -11058,13 +11047,21 @@ nav .navbar-nav .nav-link {
 }
 
 .milestone .milestone-detail .separator {
-  text-align: center;
   margin-top: 25px;
+  position: relative;
   z-index: 999;
 }
 
+.milestone .milestone-detail .separator .line-dash {
+  position: absolute;
+  border-left: 2px dashed #676767;
+  height: 2700px;
+  left: 24px;
+  margin-top: 20px;
+}
+
 .milestone .milestone-detail .separator img {
-  width: 15px;
+  width: 20px;
 }
 
 .milestone .milestone-detail .stage img {
@@ -11109,34 +11106,27 @@ nav .navbar-nav .nav-link {
   margin-bottom: 1px;
 }
 
-@media (min-width: 350px) {
+@media (min-width: 375px) {
   .header-home {
+    height: 500px;
     padding: 100px 0 90px;
   }
   .header-home .banner-text {
-    margin-top: 40px;
     padding-left: 40px;
   }
   .header-home .banner-text h1 {
     font-size: 32px;
     font-weight: 400;
+    margin-top: 100px;
   }
   .header-home .banner-text span {
     font-size: 20px;
   }
-  .milestone .milestone-title h2 {
-    font-size: 18px;
+  .milestone .milestone-detail .year h1 {
+    font-size: 20px;
   }
-  .milestone .milestone-detail {
-    position: relative;
-  }
-  .milestone .milestone-detail .garis {
-    position: absolute;
-    border-left: 2px dashed #676767;
-    height: 2790px;
-    z-index: 1;
-    top: 0px;
-    left: 100px;
+  .milestone .milestone-detail .separator .line-dash {
+    height: 2900px;
   }
 }
 
@@ -11156,44 +11146,11 @@ nav .navbar-nav .nav-link {
   .header-home .banner-text span {
     font-size: 25px;
   }
-  .milestone .milestone-detail {
-    position: relative;
-  }
-  .milestone .milestone-detail .garis {
-    position: absolute;
-    border-left: 2px dashed #676767;
-    height: 2750px;
-    z-index: 1;
-    top: 0px;
-    left: 109px;
-  }
-}
-
-@media (min-width: 576px) {
-  .milestone .milestone-detail {
-    position: relative;
-  }
-  .milestone .milestone-detail .garis {
-    position: absolute;
-    border-left: 2px dashed #676767;
-    height: 2750px;
-    z-index: 1;
-    top: 0px;
-    left: 142px;
-  }
 }
 
 @media (min-width: 768px) {
-  .milestone .milestone-detail {
-    position: relative;
-  }
-  .milestone .milestone-detail .garis {
-    position: absolute;
-    border-left: 2px dashed #676767;
-    height: 2750px;
-    z-index: 1;
-    top: 0px;
-    left: 193px;
+  .milestone .milestone-detail .separator .line-dash {
+    height: 2300px;
   }
 }
 
@@ -11230,17 +11187,6 @@ nav .navbar-nav .nav-link {
   .milestone .milestone-title h2 {
     font-size: 43px;
   }
-  .milestone .milestone-detail {
-    position: relative;
-  }
-  .milestone .milestone-detail .garis {
-    position: absolute;
-    border-left: 2px dashed #676767;
-    height: 2200px;
-    z-index: 1;
-    top: 0px;
-    left: 315px;
-  }
   .milestone .milestone-detail .year h1 {
     font-size: 60px;
     color: #295E2A;
@@ -11271,28 +11217,31 @@ nav .navbar-nav .nav-link {
     color: #676767;
     margin-bottom: 3px;
   }
-  .milestone .milestone-detail .stage .border {
-    color: #003018 !important;
+  .milestone .milestone-detail .stage .borde {
+    border-right: 1px solid #295E2A;
     margin-left: -20px;
   }
   .milestone .milestone-detail .separator {
-    margin-top: 35px;
-    z-index: 999;
+    text-align: center;
+  }
+  .milestone .milestone-detail .separator .line-dash {
+    height: 2130px;
+    left: 46px;
+    margin-top: 27px;
   }
   .milestone .milestone-detail .separator img {
-    width: 20px;
+    width: 30px;
   }
 }
 
 .header-bussiness {
   padding: 100px 0 165px;
-  height: 500px;
-  background-image: url("../images/business.jpg");
+  height: 650px;
+  background-image: url("../images/banner/business.jpg");
   background-size: cover;
 }
 
 .header-bussiness .banner-text {
-  margin-top: 50px;
   padding-left: 40px;
   color: white;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
@@ -11301,6 +11250,7 @@ nav .navbar-nav .nav-link {
 .header-bussiness .banner-text h1 {
   font-size: 35px;
   font-weight: 400;
+  margin-top: 100px;
 }
 
 .header-bussiness .banner-text span {
@@ -11312,7 +11262,7 @@ nav .navbar-nav .nav-link {
 }
 
 .panel-business .info-panel-business {
-  background-image: url("../images/info-panel.jpg");
+  background-image: url("../images/banner/info-panel.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: -70px;
@@ -11330,26 +11280,33 @@ nav .navbar-nav .nav-link {
 }
 
 .portfolio .portfolio-header {
-  color: green;
   margin-top: 60px;
-  font-weight: bold;
-  font-size: 80px;
   margin-bottom: 20px;
 }
 
+.portfolio .portfolio-header h5 {
+  color: #295E2A;
+  font-weight: 700;
+  font-size: 17px;
+}
+
 .portfolio .subject-table {
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
   margin-bottom: 10px;
   background-color: gray;
+}
+
+.portfolio .subject-table h6 {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 5px;
 }
 
 .portfolio .portfolio-table-content .card {
   margin-bottom: 20px;
 }
 
-.portfolio .portfolio-table-content .card-title {
+.portfolio .portfolio-table-content .card .card-title {
   background-color: gray;
   color: white;
   font-size: 20px;
@@ -11357,33 +11314,33 @@ nav .navbar-nav .nav-link {
   padding-bottom: 5px;
 }
 
-.portfolio .portfolio-table-content .card-body {
+.portfolio .portfolio-table-content .card .card-body {
   padding-top: 0px;
 }
 
-.portfolio .portfolio-table-content .card-body p {
+.portfolio .portfolio-table-content .card .card-body p {
   margin-bottom: 3px;
 }
 
-.portfolio .portfolio-table-content .icon-sosmed img {
-  width: 25px;
+.portfolio .portfolio-table-content .card .card-body .borde {
+  border: 0.1px solid #a09797;
+  width: 100%;
+  margin: 30px 0px;
 }
 
-.portfolio .portfolio-table-content .icon-sosmed a {
+.portfolio .portfolio-table-content .card .card-body .icon-sosmed a {
   border: 1px solid gainsboro;
-  padding: 7px 7px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  background-color: #c4c3c3;
+  padding-bottom: 6px;
 }
 
-.portfolio .portfolio-table-content .icon-sosmed a:hover {
-  border: 1px solid green;
+.portfolio .portfolio-table-content .card .card-body .icon-sosmed a:hover {
+  border: 1px solid #38813a;
+  background-color: #38813a;
 }
 
-.portfolio .portfolio-table-content .icon-sosmed a svg {
-  margin-bottom: 4px;
-  width: 20px;
+.portfolio .portfolio-table-content .card .card-body .icon-sosmed a img {
+  width: 25px;
 }
 
 @media (min-width: 350px) {
@@ -11404,40 +11361,49 @@ nav .navbar-nav .nav-link {
 
 @media (min-width: 992px) {
   .header-bussiness {
-    height: 600px;
+    height: 700px;
   }
   .header-bussiness .banner-text {
-    margin-top: 40px;
     padding-left: 70px;
   }
   .header-bussiness .banner-text h1 {
     font-size: 70px;
+    margin-top: 90px;
   }
   .header-bussiness .banner-text span {
     font-size: 50px;
   }
   .panel-business .info-panel-business {
-    min-height: 40vh;
+    min-height: 35vh;
     margin-top: -140px;
   }
   .panel-business .info-panel-business p {
-    font-size: 16px;
+    font-size: 18px;
     color: white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
     margin-top: 90px;
   }
-  .portfolio .portfolio-table-content .icon-sosmed img {
+  .portfolio .portfolio-header h5 {
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .portfolio .subject-table h6 {
+    padding-top: 6px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .portfolio .portfolio-table-content .card .card-body .borde {
+    border: 0.1px solid #a09797;
+    width: 100%;
+    margin: 30px 0px;
+  }
+  .portfolio .portfolio-table-content .card .card-body .icon-sosmed a {
+    padding-bottom: 7px;
+    padding-right: 2px;
+    padding-left: 2px;
+  }
+  .portfolio .portfolio-table-content .card .card-body .icon-sosmed a img {
     width: 30px;
-  }
-  .portfolio .portfolio-table-content .icon-sosmed a {
-    padding: 7px 7px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .portfolio .portfolio-table-content .icon-sosmed a svg {
-    margin-bottom: 5px;
-    width: 20px;
   }
 }
 
