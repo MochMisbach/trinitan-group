@@ -10955,7 +10955,6 @@ nav .navbar-nav .nav-link {
   nav {
     background-color: transparent !important;
     height: 100px;
-    border-bottom: 0.5px solid #fff;
   }
   nav .navbar-brand img {
     width: 50px;
@@ -11253,8 +11252,8 @@ nav .navbar-nav .nav-link {
   margin-top: 100px;
 }
 
-.header-bussiness .banner-text span {
-  font-size: 25px;
+.header-bussiness .banner-text h1 sup {
+  font-size: 40px;
 }
 
 .panel-business {
@@ -11330,9 +11329,9 @@ nav .navbar-nav .nav-link {
   border: 1px solid gray;
   background-color: gray;
   padding-bottom: 4px;
-  width: 9px;
-  height: 9px;
-  margin-right: 3px;
+  width: 16px;
+  height: 16px;
+  margin-right: 2px;
   margin-top: 50px;
   display: inline;
   -webkit-box-pack: center;
@@ -11341,8 +11340,8 @@ nav .navbar-nav .nav-link {
 }
 
 .portfolio .portfolio-table-content .card .card-body .room-sosmed .icon-sosmed a:hover {
-  border: 1px solid #38813a;
-  background-color: #38813a;
+  border: 1px solid #295224;
+  background-color: #295224;
 }
 
 .portfolio .portfolio-table-content .card .card-body .room-sosmed .icon-sosmed a img {
@@ -11353,9 +11352,9 @@ nav .navbar-nav .nav-link {
   border: 1px solid gray;
   background-color: gray;
   padding-bottom: 4px;
-  width: 9px;
-  height: 9px;
-  margin-right: 3px;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
   margin-top: 50px;
   display: inline;
   -webkit-box-pack: center;
@@ -11364,8 +11363,8 @@ nav .navbar-nav .nav-link {
 }
 
 .portfolio .other-business .room-sosmed .icon-sosmed a:hover {
-  border: 1px solid #38813a;
-  background-color: #38813a;
+  border: 1px solid #295224;
+  background-color: #295224;
 }
 
 .portfolio .other-business .room-sosmed .icon-sosmed a img {
@@ -11415,15 +11414,15 @@ nav .navbar-nav .nav-link {
     height: auto;
   }
   .portfolio .portfolio-table-content .card .card-body .room-sosmed .icon-sosmed a {
-    padding-top: 2px;
-    padding-bottom: 6px;
+    padding-top: 4px;
+    padding-bottom: 8px;
   }
   .portfolio .portfolio-table-content .card .card-body .room-sosmed .icon-sosmed a img {
     width: 30px;
   }
   .portfolio .other-business .room-sosmed .icon-sosmed a {
-    padding-top: 2px;
-    padding-bottom: 6px;
+    padding-top: 4px;
+    padding-bottom: 8px;
   }
   .portfolio .other-business .room-sosmed .icon-sosmed a img {
     width: 30px;
