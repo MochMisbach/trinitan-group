@@ -10932,7 +10932,7 @@ nav .navbar-nav a {
   color: #ffff !important;
   font-weight: 600;
   font-size: 18px;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 
 nav .navbar-nav a:hover {
@@ -11307,56 +11307,69 @@ nav .navbar-nav .nav-link {
 }
 
 .portfolio .portfolio-table-content .card .card-title {
-  background-color: gray;
-  color: white;
-  font-size: 20px;
+  background-color: #c7c6c6;
+  color: black;
+  font-size: 16px;
+  font-weight: 300;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-.portfolio .portfolio-table-content .card .card-body {
-  padding-top: 0px;
-}
-
 .portfolio .portfolio-table-content .card .card-body p {
-  margin-bottom: 3px;
+  margin-bottom: 1px;
 }
 
 .portfolio .portfolio-table-content .card .card-body .borde {
-  border: 0.1px solid #a09797;
+  border-bottom: 1px ridge #a09797;
   width: 100%;
-  margin: 30px 0px;
+  margin-top: 5px;
+  margin-bottom: 40px;
 }
 
-.portfolio .portfolio-table-content .card .card-body .icon-sosmed a {
-  border: 1px solid gainsboro;
-  background-color: #c4c3c3;
-  padding-bottom: 6px;
+.portfolio .portfolio-table-content .card .card-body .room-sosmed .icon-sosmed a {
+  border: 1px solid gray;
+  background-color: gray;
+  padding-bottom: 4px;
+  width: 9px;
+  height: 9px;
+  margin-right: 3px;
+  margin-top: 50px;
+  display: inline;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.portfolio .portfolio-table-content .card .card-body .icon-sosmed a:hover {
+.portfolio .portfolio-table-content .card .card-body .room-sosmed .icon-sosmed a:hover {
   border: 1px solid #38813a;
   background-color: #38813a;
 }
 
-.portfolio .portfolio-table-content .card .card-body .icon-sosmed a img {
-  width: 25px;
+.portfolio .portfolio-table-content .card .card-body .room-sosmed .icon-sosmed a img {
+  width: 20px;
 }
 
-@media (min-width: 350px) {
-  .portfolio .portfolio-table-content .icon-sosmed img {
-    width: 23px;
-  }
-  .portfolio .portfolio-table-content .icon-sosmed a {
-    padding: 3px 3px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .portfolio .portfolio-table-content .icon-sosmed a svg {
-    margin-bottom: 3px;
-    width: 14px;
-  }
+.portfolio .other-business .room-sosmed .icon-sosmed a {
+  border: 1px solid gray;
+  background-color: gray;
+  padding-bottom: 4px;
+  width: 9px;
+  height: 9px;
+  margin-right: 3px;
+  margin-top: 50px;
+  display: inline;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.portfolio .other-business .room-sosmed .icon-sosmed a:hover {
+  border: 1px solid #38813a;
+  background-color: #38813a;
+}
+
+.portfolio .other-business .room-sosmed .icon-sosmed a img {
+  width: 20px;
 }
 
 @media (min-width: 992px) {
@@ -11392,17 +11405,27 @@ nav .navbar-nav .nav-link {
     font-weight: 700;
     font-size: 18px;
   }
-  .portfolio .portfolio-table-content .card .card-body .borde {
-    border: 0.1px solid #a09797;
-    width: 100%;
-    margin: 30px 0px;
+  .portfolio .portfolio-table-content .card .card-title {
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
-  .portfolio .portfolio-table-content .card .card-body .icon-sosmed a {
-    padding-bottom: 7px;
-    padding-right: 2px;
-    padding-left: 2px;
+  .portfolio .portfolio-table-content .card .card-body {
+    height: auto;
   }
-  .portfolio .portfolio-table-content .card .card-body .icon-sosmed a img {
+  .portfolio .portfolio-table-content .card .card-body .room-sosmed .icon-sosmed a {
+    padding-top: 2px;
+    padding-bottom: 6px;
+  }
+  .portfolio .portfolio-table-content .card .card-body .room-sosmed .icon-sosmed a img {
+    width: 30px;
+  }
+  .portfolio .other-business .room-sosmed .icon-sosmed a {
+    padding-top: 2px;
+    padding-bottom: 6px;
+  }
+  .portfolio .other-business .room-sosmed .icon-sosmed a img {
     width: 30px;
   }
 }
@@ -11410,12 +11433,11 @@ nav .navbar-nav .nav-link {
 .header-contact {
   padding: 100px 0 165px;
   height: 400px;
-  background-image: url("../images/contact-us.jpg");
+  background-image: url("../images/banner/contact-us.jpg");
   background-size: cover;
 }
 
 .header-contact .banner-text {
-  margin-top: 70px;
   padding-left: 40px;
   color: white;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
@@ -11425,6 +11447,7 @@ nav .navbar-nav .nav-link {
   font-size: 30px;
   font-weight: 400;
   text-align: center;
+  margin-top: 70px;
 }
 
 .contact {

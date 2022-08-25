@@ -63,39 +63,72 @@
             margin-bottom: 20px;
         
         .card-title {
-            background-color: gray;
-            color: white;
-            font-size: 20px;
+            background-color: rgb(199, 198, 198);
+            color: black;
+            font-size: 16px;
+            font-weight: 300;
             padding-top: 5px;
             padding-bottom: 5px;
         }
         .card-body {
-            padding-top: 0px;
             p {
-                margin-bottom: 3px;               
+                margin-bottom: 1px;               
             }
             .borde {
-                    border: 0.1px solid rgb(160, 151, 151);
+                    border-bottom: 1px ridge rgb(160, 151, 151);
                     width: 100%;
-                    margin: 30px 0px;
+                    margin-top: 5px;
+                    margin-bottom: 40px;
             }
          
-            .icon-sosmed {
-                a {
-                    border: 1px solid gainsboro ;
-                    background-color: rgb(196, 195, 195);
-                    padding-bottom: 6px;
-                    &:hover {
-                        border: 1px solid #38813a ;
-                        background-color: #38813a;
-                    }
-                    img {
-                        width: 25px;
+            .room-sosmed {
+                .icon-sosmed {
+                    a {
+                        border: 1px solid gray ;
+                        background-color: gray;
+                        padding-bottom: 4px;
+                        width: 9px;
+                        height: 9px;
+                        margin-right: 3px;
+                        margin-top: 50px;
+                        display: inline;
+                        justify-content: center;
+                        &:hover {
+                            border: 1px solid #38813a ;
+                            background-color: #38813a;
+                        }
+                        img {
+                            width: 20px;
+                        }
                     }
                 }
             }
         }
        
+    }
+}
+.other-business {
+    .room-sosmed {
+        .icon-sosmed {
+            a {
+                border: 1px solid gray ;
+                background-color: gray;
+                padding-bottom: 4px;
+                width: 9px;
+                height: 9px;
+                margin-right: 3px;
+                margin-top: 50px;
+                display: inline;
+                justify-content: center;
+                &:hover {
+                    border: 1px solid #38813a ;
+                    background-color: #38813a;
+                }
+                img {
+                    width: 20px;
+                }
+            }
+        }
     }
 }
 }
@@ -104,17 +137,6 @@
     .portfolio {
         .portfolio-table-content {
             .icon-sosmed {
-                img {
-                    width: 23px;
-                }
-                a {
-                    padding: 3px 3px;
-                    justify-content: center;
-                    svg {
-                        margin-bottom: 3px;
-                        width: 14px;
-                    }
-                }
             }
         }
     }
@@ -169,20 +191,40 @@
     }
     .portfolio-table-content {
         .card {
+            .card-title {
+                font-size: 18px;
+                font-weight: 300;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
             .card-body {
+                height: auto;
                 .borde {
-                    border: 0.1px solid rgb(160, 151, 151);
-                    width: 100%;
-                    margin: 30px 0px;
+                
                 }
-                .icon-sosmed {
-                    a {
-                        padding-bottom: 7px;
-                        padding-right: 2px;
-                        padding-left: 2px;
-                        img {
-                            width: 30px;
+                .room-sosmed {
+                    .icon-sosmed {
+                        a {
+                           padding-top: 2px;
+                           padding-bottom: 6px;
+                            img {
+                                width: 30px;
+                            }
                         }
+                    }
+                }
+            }
+        }
+    }
+
+    .other-business {
+        .room-sosmed {
+            .icon-sosmed {
+                a {
+                    padding-top: 2px;
+                    padding-bottom: 6px;
+                    img {
+                        width: 30px;
                     }
                 }
             }
