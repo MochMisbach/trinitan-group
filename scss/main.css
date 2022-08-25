@@ -10866,6 +10866,7 @@ footer .container .connect a {
 
 footer .container .connect .btn {
   background-color: #295224 !important;
+  border-color: #295224 !important;
   border-radius: 0;
 }
 
@@ -10930,7 +10931,7 @@ nav .navbar-brand img {
 
 nav .navbar-nav a {
   color: #ffff !important;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
@@ -11415,7 +11416,7 @@ nav .navbar-nav .nav-link {
     padding-bottom: 5px;
   }
   .portfolio .portfolio-table-content .card .card-body .borde {
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 20px;
   }
   .portfolio .portfolio-table-content .card .card-body .room-sosmed .icon-sosmed a {
@@ -11437,7 +11438,7 @@ nav .navbar-nav .nav-link {
 .header-contact {
   padding: 100px 0 165px;
   height: 400px;
-  background-image: url("../images/banner/contact-us.jpg");
+  background-image: url("../images/banner/connect-us.jpg");
   background-size: cover;
 }
 
@@ -11450,8 +11451,7 @@ nav .navbar-nav .nav-link {
 .header-contact .banner-text h1 {
   font-size: 30px;
   font-weight: 400;
-  text-align: center;
-  margin-top: 70px;
+  margin-top: 100px;
 }
 
 .contact {
@@ -11551,10 +11551,10 @@ nav .navbar-nav .nav-link {
     height: 600px;
   }
   .header-contact .banner-text {
-    margin-top: 100px;
     padding-left: 70px;
   }
   .header-contact .banner-text h1 {
+    margin-top: 150px;
     font-size: 80px;
   }
   .header-contact .banner-text span {
