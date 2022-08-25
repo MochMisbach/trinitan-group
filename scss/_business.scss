@@ -12,7 +12,7 @@
             font-weight: 400;
             margin-top: 100px;
             sup {
-                font-size: 40px;
+                font-size: 20px;
             }
         }
     }
@@ -89,9 +89,8 @@
                         border: 1px solid gray ;
                         background-color: gray;
                         padding-bottom: 4px;
-                        width: 16px;
-                        height: 16px;
-                        margin-right: 2px;
+                        width: 9px !important;
+                        margin-right: 4px;
                         margin-top: 50px;
                         display: inline;
                         justify-content: center;
@@ -116,9 +115,8 @@
                 border: 1px solid gray ;
                 background-color: gray;
                 padding-bottom: 4px;
-                width: 16px;
-                height: 16px;
-                margin-right: 5px;
+                width: 9px;
+                margin-right: 4px;
                 margin-top: 50px;
                 display: inline;
                 justify-content: center;
@@ -146,6 +144,9 @@
             h1 {
                 font-size: 70px;
                 margin-top: 90px;
+                sup {
+                    font-size: 40px;
+                }
             }
             span {
                 font-size: 50px;
@@ -199,8 +200,10 @@
                 .room-sosmed {
                     .icon-sosmed {
                         a {
-                           padding-top: 4px;
-                           padding-bottom: 8px;
+                        width: 16px;
+                        height: 16px;
+                        padding-top: 4px;
+                        padding-bottom: 8px;
                             img {
                                 width: 30px;
                             }
@@ -215,6 +218,8 @@
         .room-sosmed {
             .icon-sosmed {
                 a {
+                    width: 16px;
+                    height: 16px;
                     padding-top: 4px;
                     padding-bottom: 8px;
                     img {

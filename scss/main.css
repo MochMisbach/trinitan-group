@@ -11254,7 +11254,7 @@ nav .navbar-nav .nav-link {
 }
 
 .header-bussiness .banner-text h1 sup {
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .panel-business {
@@ -11334,9 +11334,8 @@ nav .navbar-nav .nav-link {
   border: 1px solid gray;
   background-color: gray;
   padding-bottom: 4px;
-  width: 16px;
-  height: 16px;
-  margin-right: 2px;
+  width: 9px !important;
+  margin-right: 4px;
   margin-top: 50px;
   display: inline;
   -webkit-box-pack: center;
@@ -11357,9 +11356,8 @@ nav .navbar-nav .nav-link {
   border: 1px solid gray;
   background-color: gray;
   padding-bottom: 4px;
-  width: 16px;
-  height: 16px;
-  margin-right: 5px;
+  width: 9px;
+  margin-right: 4px;
   margin-top: 50px;
   display: inline;
   -webkit-box-pack: center;
@@ -11386,6 +11384,9 @@ nav .navbar-nav .nav-link {
   .header-bussiness .banner-text h1 {
     font-size: 70px;
     margin-top: 90px;
+  }
+  .header-bussiness .banner-text h1 sup {
+    font-size: 40px;
   }
   .header-bussiness .banner-text span {
     font-size: 50px;
@@ -11420,6 +11421,8 @@ nav .navbar-nav .nav-link {
     margin-bottom: 20px;
   }
   .portfolio .portfolio-table-content .card .card-body .room-sosmed .icon-sosmed a {
+    width: 16px;
+    height: 16px;
     padding-top: 4px;
     padding-bottom: 8px;
   }
@@ -11427,6 +11430,8 @@ nav .navbar-nav .nav-link {
     width: 30px;
   }
   .portfolio .other-business .room-sosmed .icon-sosmed a {
+    width: 16px;
+    height: 16px;
     padding-top: 4px;
     padding-bottom: 8px;
   }
