@@ -11314,15 +11314,19 @@ nav .navbar-nav .nav-link {
   padding-bottom: 5px;
 }
 
+.portfolio .portfolio-table-content .card .card-body {
+  padding-top: 1px !important;
+}
+
 .portfolio .portfolio-table-content .card .card-body p {
-  margin-bottom: 1px;
+  margin-bottom: 2px;
 }
 
 .portfolio .portfolio-table-content .card .card-body .borde {
   border-bottom: 1px ridge #a09797;
   width: 100%;
   margin-top: 5px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .portfolio .portfolio-table-content .card .card-body .room-sosmed .icon-sosmed a {
@@ -11410,8 +11414,9 @@ nav .navbar-nav .nav-link {
     padding-top: 5px;
     padding-bottom: 5px;
   }
-  .portfolio .portfolio-table-content .card .card-body {
-    height: auto;
+  .portfolio .portfolio-table-content .card .card-body .borde {
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
   .portfolio .portfolio-table-content .card .card-body .room-sosmed .icon-sosmed a {
     padding-top: 4px;

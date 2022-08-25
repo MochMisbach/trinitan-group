@@ -71,14 +71,16 @@
             padding-bottom: 5px;
         }
         .card-body {
+            padding-top: 1px !important;
             p {
-                margin-bottom: 1px;               
+                margin-bottom: 2px;
+                               
             }
             .borde {
                     border-bottom: 1px ridge rgb(160, 151, 151);
                     width: 100%;
                     margin-top: 5px;
-                    margin-bottom: 40px;
+                    margin-bottom: 20px;
             }
          
             .room-sosmed {
@@ -190,10 +192,10 @@
                 padding-bottom: 5px;
             }
             .card-body {
-                height: auto;
                 .borde {
-                
-                }
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+            }
                 .room-sosmed {
                     .icon-sosmed {
                         a {
