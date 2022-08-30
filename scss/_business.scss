@@ -31,7 +31,7 @@
         p {
             font-size: 14px;
             color: white;
-            text-shadow: 1px 1px 1px rgba(0,0,0,0.9);
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
             margin-top: 20px;
         }
     
@@ -84,13 +84,18 @@
             }
          
             .room-sosmed {
+                text-align: center;
                 .icon-sosmed {
+                    margin-bottom: 25px;
+                    
                     a {
                         border: 1px solid gray ;
                         background-color: gray;
-                        padding-bottom: 4px;
-                        width: 9px !important;
-                        margin-right: 4px;
+                        padding-bottom: 5px;
+                        padding-left: 2px;
+                        padding-right: 2px;
+                        width: 18px;
+                        margin-right: 1px;
                         margin-top: 50px;
                         display: inline;
                         justify-content: center;
@@ -114,8 +119,10 @@
             a {
                 border: 1px solid gray ;
                 background-color: gray;
-                padding-bottom: 4px;
-                width: 9px;
+                padding-bottom: 5px;
+                padding-left: 2px;
+                padding-right: 2px;
+                width: 18px;
                 margin-right: 4px;
                 margin-top: 50px;
                 display: inline;
@@ -131,6 +138,31 @@
         }
     }
 }
+}
+
+@media (min-width: 375px) { 
+    .portfolio {
+        .portfolio-table-content {
+            .card-body {
+                .room-sosmed {
+                    .icon-sosmed {
+                        a {
+                            padding-bottom: 4px;
+                            padding-left: 2px;
+                            padding-right: 2px;
+                            width: 10px;
+                            margin-right: 1px;
+                            img {
+                                width: 16px;
+                            }
+                        }
+                    }
+                }
+                
+
+            }
+        }
+    }
 }
 
 
@@ -161,9 +193,7 @@
             margin-top: -140px;
             
             p {
-                font-size: 18px;
-                color: white;
-                text-shadow: 1px 1px 1px rgba(0,0,0,0.9);
+                font-size: 16px;
                 margin-top: 90px;
             }
         
@@ -202,8 +232,8 @@
                         a {
                         width: 16px;
                         height: 16px;
-                        padding-top: 4px;
-                        padding-bottom: 8px;
+                        padding-top: 5px;
+                        padding-bottom: 10px;
                             img {
                                 width: 30px;
                             }
@@ -220,8 +250,8 @@
                 a {
                     width: 16px;
                     height: 16px;
-                    padding-top: 4px;
-                    padding-bottom: 8px;
+                    padding-top: 5px;
+                    padding-bottom: 10px;
                     img {
                         width: 30px;
                     }

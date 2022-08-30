@@ -10922,7 +10922,6 @@ footer .container .follow p {
 
 nav {
   background-color: #295224 !important;
-  opacity: 80%;
 }
 
 nav .navbar-brand img {
@@ -10946,10 +10945,8 @@ nav .navbar-nav .nav-link {
 
 .nav-active {
   background-color: #295224 !important;
-  opacity: 90%;
   -webkit-box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.5);
           box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.5);
-  border-bottom: none;
 }
 
 @media (min-width: 992px) {
@@ -10963,6 +10960,12 @@ nav .navbar-nav .nav-link {
   nav .navbar-nav a {
     text-transform: uppercase;
     font-size: 16px;
+  }
+  .nav-active {
+    background-color: #295224 !important;
+    opacity: 90%;
+    -webkit-box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.5);
+            box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -11271,7 +11274,7 @@ nav .navbar-nav .nav-link {
 .panel-business .info-panel-business p {
   font-size: 14px;
   color: white;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
   margin-top: 20px;
 }
 
@@ -11330,12 +11333,22 @@ nav .navbar-nav .nav-link {
   margin-bottom: 20px;
 }
 
+.portfolio .portfolio-table-content .card .card-body .room-sosmed {
+  text-align: center;
+}
+
+.portfolio .portfolio-table-content .card .card-body .room-sosmed .icon-sosmed {
+  margin-bottom: 25px;
+}
+
 .portfolio .portfolio-table-content .card .card-body .room-sosmed .icon-sosmed a {
   border: 1px solid gray;
   background-color: gray;
-  padding-bottom: 4px;
-  width: 9px !important;
-  margin-right: 4px;
+  padding-bottom: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+  width: 18px;
+  margin-right: 1px;
   margin-top: 50px;
   display: inline;
   -webkit-box-pack: center;
@@ -11355,8 +11368,10 @@ nav .navbar-nav .nav-link {
 .portfolio .other-business .room-sosmed .icon-sosmed a {
   border: 1px solid gray;
   background-color: gray;
-  padding-bottom: 4px;
-  width: 9px;
+  padding-bottom: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+  width: 18px;
   margin-right: 4px;
   margin-top: 50px;
   display: inline;
@@ -11372,6 +11387,19 @@ nav .navbar-nav .nav-link {
 
 .portfolio .other-business .room-sosmed .icon-sosmed a img {
   width: 20px;
+}
+
+@media (min-width: 375px) {
+  .portfolio .portfolio-table-content .card-body .room-sosmed .icon-sosmed a {
+    padding-bottom: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 10px;
+    margin-right: 1px;
+  }
+  .portfolio .portfolio-table-content .card-body .room-sosmed .icon-sosmed a img {
+    width: 16px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -11396,9 +11424,7 @@ nav .navbar-nav .nav-link {
     margin-top: -140px;
   }
   .panel-business .info-panel-business p {
-    font-size: 18px;
-    color: white;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+    font-size: 16px;
     margin-top: 90px;
   }
   .portfolio .portfolio-header h5 {
@@ -11423,8 +11449,8 @@ nav .navbar-nav .nav-link {
   .portfolio .portfolio-table-content .card .card-body .room-sosmed .icon-sosmed a {
     width: 16px;
     height: 16px;
-    padding-top: 4px;
-    padding-bottom: 8px;
+    padding-top: 5px;
+    padding-bottom: 10px;
   }
   .portfolio .portfolio-table-content .card .card-body .room-sosmed .icon-sosmed a img {
     width: 30px;
@@ -11432,8 +11458,8 @@ nav .navbar-nav .nav-link {
   .portfolio .other-business .room-sosmed .icon-sosmed a {
     width: 16px;
     height: 16px;
-    padding-top: 4px;
-    padding-bottom: 8px;
+    padding-top: 5px;
+    padding-bottom: 10px;
   }
   .portfolio .other-business .room-sosmed .icon-sosmed a img {
     width: 30px;
@@ -11441,10 +11467,12 @@ nav .navbar-nav .nav-link {
 }
 
 .header-contact {
-  padding: 100px 0 165px;
-  height: 400px;
+  padding: 70px 0 120px;
+  height: 100px;
   background-image: url("../images/banner/connect-us.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 70px;
 }
 
 .header-contact .banner-text {
@@ -11454,9 +11482,8 @@ nav .navbar-nav .nav-link {
 }
 
 .header-contact .banner-text h1 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
-  margin-top: 100px;
 }
 
 .contact {
@@ -11554,6 +11581,8 @@ nav .navbar-nav .nav-link {
 @media (min-width: 992px) {
   .header-contact {
     height: 600px;
+    padding: 100px 0 165px;
+    margin-top: 0;
   }
   .header-contact .banner-text {
     padding-left: 70px;
