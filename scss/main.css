@@ -10931,7 +10931,7 @@ nav .navbar-brand img {
 nav .navbar-nav a {
   color: #ffff !important;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 
@@ -10984,9 +10984,9 @@ nav .navbar-nav .nav-link {
 }
 
 .header-home .banner-text h1 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
-  margin-top: 100px;
+  margin-top: 90px;
 }
 
 .header-home .banner-text span {
@@ -11239,7 +11239,7 @@ nav .navbar-nav .nav-link {
 
 .header-bussiness {
   padding: 100px 0 165px;
-  height: 650px;
+  height: 550px;
   background-image: url("../images/banner/business.jpg");
   background-size: cover;
 }
@@ -11251,7 +11251,7 @@ nav .navbar-nav .nav-link {
 }
 
 .header-bussiness .banner-text h1 {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 400;
   margin-top: 100px;
 }
@@ -11389,19 +11389,6 @@ nav .navbar-nav .nav-link {
   width: 20px;
 }
 
-@media (min-width: 375px) {
-  .portfolio .portfolio-table-content .card-body .room-sosmed .icon-sosmed a {
-    padding-bottom: 4px;
-    padding-left: 2px;
-    padding-right: 2px;
-    width: 10px;
-    margin-right: 1px;
-  }
-  .portfolio .portfolio-table-content .card-body .room-sosmed .icon-sosmed a img {
-    width: 16px;
-  }
-}
-
 @media (min-width: 992px) {
   .header-bussiness {
     height: 700px;
@@ -11467,12 +11454,12 @@ nav .navbar-nav .nav-link {
 }
 
 .header-contact {
-  padding: 70px 0 120px;
-  height: 100px;
+  padding: 70px 0 70px;
+  height: 160px;
   background-image: url("../images/banner/connect-us.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 70px;
+  margin-top: 75px;
 }
 
 .header-contact .banner-text {
@@ -11482,7 +11469,7 @@ nav .navbar-nav .nav-link {
 }
 
 .header-contact .banner-text h1 {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 400;
 }
 

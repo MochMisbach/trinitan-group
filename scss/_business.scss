@@ -1,6 +1,6 @@
 .header-bussiness {
     padding: 100px 0 165px;
-    height: 650px;
+    height: 550px;
     background-image: url('../images/banner/business.jpg');
     background-size: cover;
     .banner-text {
@@ -8,7 +8,7 @@
         color: white;
         text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
         h1 {
-            font-size: 35px;
+            font-size: 30px;
             font-weight: 400;
             margin-top: 100px;
             sup {
@@ -140,30 +140,30 @@
 }
 }
 
-@media (min-width: 375px) { 
-    .portfolio {
-        .portfolio-table-content {
-            .card-body {
-                .room-sosmed {
-                    .icon-sosmed {
-                        a {
-                            padding-bottom: 4px;
-                            padding-left: 2px;
-                            padding-right: 2px;
-                            width: 10px;
-                            margin-right: 1px;
-                            img {
-                                width: 16px;
-                            }
-                        }
-                    }
-                }
+// @media (min-width: 375px) { 
+//     .portfolio {
+//         .portfolio-table-content {
+//             .card-body {
+//                 .room-sosmed {
+//                     .icon-sosmed {
+//                         a {
+//                             padding-bottom: 4px;
+//                             padding-left: 2px;
+//                             padding-right: 2px;
+//                             width: 10px;
+//                             margin-right: 1px;
+//                             img {
+//                                 width: 16px;
+//                             }
+//                         }
+//                     }
+//                 }
                 
 
-            }
-        }
-    }
-}
+//             }
+//         }
+//     }
+// }
 
 
 
