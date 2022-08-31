@@ -11348,7 +11348,7 @@ nav .navbar-nav .nav-link {
   padding-left: 2px;
   padding-right: 2px;
   width: 18px;
-  margin-right: 1px;
+  margin-right: 4px;
   margin-top: 50px;
   display: inline;
   -webkit-box-pack: center;
@@ -11438,6 +11438,7 @@ nav .navbar-nav .nav-link {
     height: 16px;
     padding-top: 5px;
     padding-bottom: 10px;
+    margin-right: 1px;
   }
   .portfolio .portfolio-table-content .card .card-body .room-sosmed .icon-sosmed a img {
     width: 30px;
@@ -11447,6 +11448,7 @@ nav .navbar-nav .nav-link {
     height: 16px;
     padding-top: 5px;
     padding-bottom: 10px;
+    margin-right: 1px;
   }
   .portfolio .other-business .room-sosmed .icon-sosmed a img {
     width: 30px;
@@ -11456,7 +11458,7 @@ nav .navbar-nav .nav-link {
 .header-contact {
   padding: 70px 0 70px;
   height: 160px;
-  background-image: url("../images/banner/connect-us.jpg");
+  background-image: url("../images/banner/contact-us.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 75px;
