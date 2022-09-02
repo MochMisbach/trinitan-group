@@ -38,7 +38,7 @@
     }
 }
 .portfolio {
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     .portfolio-header {
         margin-top: 60px;
         margin-bottom: 20px;
@@ -85,6 +85,9 @@
          
             .room-sosmed {
                 text-align: center;
+                .content-sosmed {
+                    margin-bottom: 50px;
+                }
                 .icon-sosmed {
                     margin-bottom: 25px;
                     
@@ -96,7 +99,7 @@
                         padding-right: 2px;
                         width: 18px;
                         margin-right: 4px;
-                        margin-top: 50px;
+                        margin-top: 20px;
                         display: inline;
                         justify-content: center;
                         &:hover {
@@ -228,6 +231,9 @@
                     margin-bottom: 20px;
             }
                 .room-sosmed {
+                    .content-sosmed {
+                        margin-bottom: 0px;
+                    }
                     .icon-sosmed {
                         a {
                             width: 16px;

@@ -11279,7 +11279,7 @@ nav .navbar-nav .nav-link {
 }
 
 .portfolio {
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 .portfolio .portfolio-header {
@@ -11337,6 +11337,10 @@ nav .navbar-nav .nav-link {
   text-align: center;
 }
 
+.portfolio .portfolio-table-content .card .card-body .room-sosmed .content-sosmed {
+  margin-bottom: 50px;
+}
+
 .portfolio .portfolio-table-content .card .card-body .room-sosmed .icon-sosmed {
   margin-bottom: 25px;
 }
@@ -11349,7 +11353,7 @@ nav .navbar-nav .nav-link {
   padding-right: 2px;
   width: 18px;
   margin-right: 4px;
-  margin-top: 50px;
+  margin-top: 20px;
   display: inline;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -11432,6 +11436,9 @@ nav .navbar-nav .nav-link {
   .portfolio .portfolio-table-content .card .card-body .borde {
     margin-top: 15px;
     margin-bottom: 20px;
+  }
+  .portfolio .portfolio-table-content .card .card-body .room-sosmed .content-sosmed {
+    margin-bottom: 0px;
   }
   .portfolio .portfolio-table-content .card .card-body .room-sosmed .icon-sosmed a {
     width: 16px;
